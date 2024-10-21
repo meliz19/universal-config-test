@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "universal-config-test"
+version = "0.1.0"
+description = ""
+authors = ["Margaret Black <black_margaret@bah.com>"]
+readme = "README.md"
+packages = [{include = "universal_config_test", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+krausening = ">=20"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
